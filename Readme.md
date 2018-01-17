@@ -1,0 +1,1 @@
+This mod hides the existing tags, and adds entity based tags that are only as visible as the player.
