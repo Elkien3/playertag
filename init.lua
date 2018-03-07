@@ -81,7 +81,7 @@ local function step()
 	minetest.after(10, step)
 end
 minetest.after(10, step)
-
+--[[
 minetest.register_globalstep(function(player)
 	for _, player in pairs(minetest.get_connected_players()) do
 		player:set_nametag_attributes({
@@ -89,7 +89,7 @@ minetest.register_globalstep(function(player)
 		})
 	end
 end)
-
+--]]
 minetest.register_on_joinplayer(function(player)
 	if not player.tag then
 		player:set_nametag_attributes({
